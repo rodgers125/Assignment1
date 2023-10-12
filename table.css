@@ -14,7 +14,7 @@ body {
     margin: 20px;
     text-align: center;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 10px;    
     
 }
 
@@ -39,6 +39,9 @@ body {
 .content tbody tr:nth-child(2) {
     background-color: rgb(161, 161, 161); 
     color: rgb(2, 124, 43);
+    outline-style: solid ;
+    outline-color: rgb(95, 94, 94);
+    outline-width: 1px;
     
 }
 .content tbody tr:nth-child(3){

@@ -2,7 +2,7 @@
     background-color: blueviolet;
 }
 .input-field {
-    max-width: 250px;
+    max-width: 320px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -64,9 +64,11 @@ select option[disabled] {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    
 }
 
 
 .submit-button:hover {
-    background-color: #062502;
+    background-color: #062502;    
+        
 }
