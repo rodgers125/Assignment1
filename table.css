@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 0;    
+}
+
+
+.content {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    font-family: sans-serif;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+.content th, .content td {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+ 
+  
+}
+
+.content th {
+    background-color: #f2f2f2;
+}
+
+
+.content th {
+    background-color: rgb(2, 124, 43);
+    color: white;
+   
+}
+
+.content tbody tr:nth-child(2) {
+    background-color: rgb(161, 161, 161); 
+    color: rgb(2, 124, 43);
+    
+}
+.content tbody tr:nth-child(3){
+    border-bottom:3px solid rgb(2, 124, 43);
+
+}
